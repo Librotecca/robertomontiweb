@@ -3,27 +3,35 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Roberto Monti, landing page e siti web a Bologna</title>
-<meta name="description" content="Roberto Monti, freelance a Bologna: landing page e funnel, siti web per attività locali, app e sistemi su misura. I lavori mostrati sono veri e quasi tutti si possono aprire.">
+<title>Siti e landing page per attività locali e professionisti · Roberto Monti, Bologna</title>
+<meta name="description" content="Roberto Monti realizza siti e landing page per attività locali e professionisti: servizi chiari, lavori visibili e un percorso semplice per contattarti. Da Bologna, in tutta Italia.">
 <meta name="author" content="Roberto Monti">
 <meta name="theme-color" content="#1B3A40">
 <meta name="robots" content="index, follow">
+<link rel="canonical" href="https://robertomontiweb.it/">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="it_IT">
 <meta property="og:site_name" content="Roberto Monti">
-<meta property="og:title" content="Roberto Monti, landing page, siti web e app su misura">
-<meta property="og:description" content="Freelance a Bologna. Pagine di vendita, siti per attività locali e piattaforme web. I lavori mostrati sono veri, con il link per aprirli.">
+<meta property="og:url" content="https://robertomontiweb.it/">
+<meta property="og:title" content="Siti e landing page per attività locali e professionisti">
+<meta property="og:description" content="Servizi chiari, lavori visibili e un percorso semplice per contattarti. Lavori direttamente con me, dalla proposta alla pubblicazione.">
+<meta property="og:image" content="https://robertomontiweb.it/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Roberto Monti, siti e landing page per attività locali e professionisti">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23FFB13B'/%3E%3Ctext x='32' y='43' font-family='Arial,Helvetica,sans-serif' font-weight='800' font-size='28' text-anchor='middle' fill='%23122A2F'%3ERM%3C/text%3E%3C/svg%3E">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,400..800&family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="/fonts/bricolage-wdth.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/instrument-sans.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/css/fonts.css">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "ProfessionalService",
   "name": "Roberto Monti",
-  "description": "Landing page e funnel, siti web per attività locali, app e sistemi su misura.",
+  "url": "https://robertomontiweb.it/",
+  "image": "https://robertomontiweb.it/og.jpg",
+  "description": "Siti e landing page per attività locali e professionisti. Funnel e applicazioni su misura come servizi distinti.",
   "founder": { "@type": "Person", "name": "Roberto Monti" },
   "address": { "@type": "PostalAddress", "addressLocality": "Bologna", "addressRegion": "BO", "addressCountry": "IT" },
   "areaServed": { "@type": "Country", "name": "Italia" },
@@ -34,8 +42,9 @@
     "@type": "OfferCatalog",
     "name": "Servizi",
     "itemListElement": [
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Landing page e funnel" } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Siti web" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Siti web", "url": "https://robertomontiweb.it/siti-web" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Landing page", "url": "https://robertomontiweb.it/landing-page" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Funnel" } },
       { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "App e sistemi su misura" } }
     ]
   }
@@ -313,7 +322,7 @@ footer{background:#0E2226;padding-top:clamp(40px,5vw,72px);overflow:hidden}
 .foot-links{display:flex;flex-wrap:wrap;gap:4px 28px;align-items:flex-start}
 .foot-links a{min-height:44px;display:inline-flex;align-items:center;color:var(--muted);transition:color .25s}
 .foot-links a:hover{color:var(--accent)}
-.giant{display:inline-block;font-family:var(--f-display);font-weight:800;font-stretch:75%;font-size:19.4vw;line-height:.8;letter-spacing:-.02em;white-space:nowrap;font-variation-settings:"opsz" 96;margin-left:-.04em;padding-top:.06em;overflow:hidden}
+.giant{display:inline-block;font-family:var(--f-display);font-weight:800;font-stretch:75%;font-size:calc(min(100vw - var(--gutter)*2, var(--wrap)) * .181);line-height:.8;letter-spacing:-.02em;white-space:nowrap;font-variation-settings:"opsz" 96;margin-left:-.04em;padding-top:.06em;overflow:hidden}
 .giant b{display:inline-block;font-weight:inherit}
 .giant b.dot{color:var(--accent)}
 .js .giant b{transform:translateY(105%);transition:transform 1.1s var(--ease);transition-delay:calc(var(--i)*45ms)}
@@ -326,6 +335,80 @@ footer{background:#0E2226;padding-top:clamp(40px,5vw,72px);overflow:hidden}
 .bar-cta{position:fixed;left:12px;right:12px;bottom:calc(12px + env(safe-area-inset-bottom,0px));z-index:44;display:none;transform:translateY(160%);transition:transform .45s var(--ease)}
 .bar-cta.is-on{transform:none}
 .bar-cta .btn{width:100%;box-shadow:0 12px 26px -12px rgba(0,0,0,.7)}
+
+
+/* ---------- revision 2026-11: brief, cases, grid, services, proposal ---------- */
+.sr{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+.brief{padding-block:clamp(56px,7vw,96px);border-bottom:1px solid var(--line)}
+.quad{margin:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0}
+.quad .q{padding:0 clamp(16px,2vw,28px) 0;border-left:1px solid var(--line)}
+.quad .q:first-child{border-left:0;padding-left:0}
+.quad dt{color:var(--accent);margin-bottom:14px}
+.quad dd{margin:0;font-size:16.5px;color:#DCE2DE}
+.meta li.kind{border-color:rgba(241,237,228,.45);color:var(--text)}
+.wk-links{display:flex;flex-wrap:wrap;gap:4px 24px}
+.link--soft{color:var(--muted);font-weight:500}
+.link--soft::after{opacity:.5}
+.skipw{min-height:44px;display:inline-flex;align-items:center;color:var(--muted);transition:color .25s}
+.skipw:hover{color:var(--accent)}
+.more{padding-bottom:var(--sec)}
+.more-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:end;gap:12px 24px;padding:clamp(40px,5vw,72px) 0 clamp(20px,2.5vw,32px);border-top:1px solid var(--line)}
+.h2s{font-size:clamp(1.8rem,3.4vw,3rem)}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(28px,3vw,44px) clamp(20px,2.4vw,36px)}
+.it{display:flex;flex-direction:column;gap:16px}
+.thumb{display:block;aspect-ratio:16/10;border-radius:12px;background-color:var(--surface);background-size:100% auto;background-position:top center;background-repeat:no-repeat;box-shadow:0 0 0 1px rgba(241,237,228,.14);transition:transform .45s var(--ease),box-shadow .3s}
+.thumb:hover{transform:translateY(-3px);box-shadow:0 0 0 1px rgba(241,237,228,.3),0 24px 40px -24px rgba(0,0,0,.7)}
+.thumb .tm{display:none;width:100%;height:100%;background-size:cover;background-position:top center}
+.it-t{display:flex;flex-direction:column;align-items:flex-start;gap:10px}
+.it h3{font-size:clamp(1.35rem,1.9vw,1.75rem)}
+.it p{font-size:15.5px;color:#DCE2DE}
+.svcs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(16px,2vw,24px);padding-top:clamp(28px,3.5vw,48px)}
+.svc{display:flex;flex-direction:column;align-items:flex-start;gap:14px;padding:clamp(22px,2.6vw,36px);border:1px solid var(--line);border-radius:20px;transition:border-color .3s,transform .4s var(--ease)}
+.svc:hover{border-color:rgba(241,237,228,.4);transform:translateY(-2px)}
+.svc--main{background:rgba(241,237,228,.05)}
+.svc .n{color:var(--accent)}
+.svc h3{font-size:clamp(1.7rem,2.8vw,2.5rem)}
+.svc p{font-size:16.5px;color:#DCE2DE;max-width:34em}
+.inc{display:grid;gap:8px;margin:4px 0 6px}
+.inc li{position:relative;padding-left:24px;font-size:15.5px}
+.inc li::before{content:"";position:absolute;left:2px;top:.55em;width:9px;height:5px;border-left:2px solid var(--accent);border-bottom:2px solid var(--accent);transform:rotate(-45deg)}
+.svc-links{display:flex;flex-wrap:wrap;gap:0 24px;margin-top:auto}
+.faq{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:24px 48px;padding-top:clamp(56px,8vw,112px)}
+.faq-h h3{font-size:clamp(1.7rem,3vw,2.6rem);max-width:12em;margin-bottom:16px}
+.faq-h p{color:#DCE2DE;max-width:30em}
+.faq-l details{border-top:1px solid var(--line)}
+.faq-l details:last-child{border-bottom:1px solid var(--line)}
+.faq-l summary{display:flex;justify-content:space-between;align-items:center;gap:16px;min-height:60px;cursor:pointer;list-style:none;font-family:var(--f-display);font-weight:700;font-stretch:84%;font-size:21px;letter-spacing:-.01em}
+.faq-l summary::-webkit-details-marker{display:none}
+.faq-l summary::after{content:"+";font-family:var(--f-body);font-weight:400;font-size:26px;color:var(--accent);transition:transform .3s var(--ease)}
+.faq-l details[open] summary::after{transform:rotate(45deg)}
+.faq-l summary:hover{color:var(--accent-2)}
+.faq-l details p{padding:0 0 20px;color:#DCE2DE;max-width:38em}
+.btn:disabled{opacity:.55;cursor:not-allowed;transform:none}
+.f-note a,.f-alt a{text-decoration:underline;text-underline-offset:3px}
+.f-alt{grid-column:1/-1;padding:14px 16px;border-radius:12px;background:rgba(255,177,59,.14);font-size:15.5px}
+@media (max-width:1099px){
+  .quad{grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 0}
+  .quad .q:nth-child(3){border-left:0;padding-left:0}
+  .grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (max-width:959px){
+  .faq,.svcs{grid-template-columns:minmax(0,1fr)}
+}
+@media (max-width:699px){
+  .quad{grid-template-columns:minmax(0,1fr);gap:22px}
+  .quad .q{border-left:0;padding:22px 0 0;border-top:1px solid var(--line)}
+  .quad .q:first-child{border-top:0;padding-top:0}
+  .grid{grid-template-columns:minmax(0,1fr);gap:22px}
+  .it{display:grid;grid-template-columns:38% minmax(0,1fr);gap:14px;align-items:start}
+  .it .thumb{aspect-ratio:3/4;overflow:hidden}
+  .thumb .tm{display:block}
+  .it p{display:none}
+  .it h3{font-size:1.25rem}
+  .it .meta li:nth-child(2){display:none}
+  .it .link{min-height:40px}
+  .wk-links{flex-direction:column;gap:0}
+}
 
 /* ---------- responsive ---------- */
 @media (max-width:1099px){
@@ -357,7 +440,6 @@ footer{background:#0E2226;padding-top:clamp(40px,5vw,72px);overflow:hidden}
   .work.is-3d .wk h3{font-size:clamp(1.7rem,6vw,2.6rem)}
   .work.is-3d .wk p.d{font-size:15.5px;line-height:1.42}
   .work.is-3d .ghost{font-size:min(34vh,52vw);top:9vh;margin-top:0;right:2vw}
-  .rail .skipw{display:none}
   .rail .ticks button{width:22px}
 }
 @media (max-width:699px){
@@ -381,7 +463,6 @@ footer{background:#0E2226;padding-top:clamp(40px,5vw,72px);overflow:hidden}
   .bar{height:22px;padding:0 8px}
   .bar i{width:6px;height:6px}
   .bar span{font-size:9px;margin-left:6px}
-  .work.is-3d .meta li:nth-child(n+3){display:none}
   .bar-cta{display:block}
   footer{padding-bottom:84px}
 }
@@ -400,7 +481,6 @@ footer{background:#0E2226;padding-top:clamp(40px,5vw,72px);overflow:hidden}
 }
 </style>
 <style id="imgs">.i-cookie-d{background-image:url("/img/cookie-d.webp")}.i-cookie-m{background-image:url("/img/cookie-m.webp")}.i-edilizia-d{background-image:url("/img/edilizia-d.webp")}.i-edilizia-m{background-image:url("/img/edilizia-m.webp")}.i-estetica-d{background-image:url("/img/estetica-d.webp")}.i-estetica-m{background-image:url("/img/estetica-m.webp")}.i-max-d{background-image:url("/img/max-d.webp")}.i-max-m{background-image:url("/img/max-m.webp")}.i-naples-d{background-image:url("/img/naples-d.webp")}.i-naples-m{background-image:url("/img/naples-m.webp")}.i-pap-d{background-image:url("/img/pap-d.webp")}.i-pilates-d{background-image:url("/img/pilates-d.webp")}.i-pilates-m{background-image:url("/img/pilates-m.webp")}.i-sicily-d{background-image:url("/img/sicily-d.webp")}.i-sicily-m{background-image:url("/img/sicily-m.webp")}.i-trattoria-d{background-image:url("/img/trattoria-d.webp")}.i-trattoria-m{background-image:url("/img/trattoria-m.webp")}</style>
-<link rel="canonical" href="https://robertomontiweb.it/">
 </head>
 <body>
 <a class="skip" href="#lavori">Vai ai lavori</a>
@@ -439,10 +519,10 @@ footer{background:#0E2226;padding-top:clamp(40px,5vw,72px);overflow:hidden}
 
 <section class="hero" aria-labelledby="h1">
   <div class="wrap hero-top" id="heroTop">
-    <p class="hero-eyebrow mono"><b aria-hidden="true"></b>Freelance · Bologna</p>
-    <h1 id="h1"><span class="l" style="--d:0"><span>Landing page, siti web</span></span><span class="l" style="--d:1"><span>e app <em>su misura.</em></span></span></h1>
+    <p class="hero-eyebrow mono"><b aria-hidden="true"></b>Siti e landing page · Bologna</p>
+    <h1 id="h1"><span class="l" style="--d:0"><span>Siti e landing page</span></span><span class="l" style="--d:1"><span>per attività locali <em>e professionisti.</em></span></span></h1>
     <div class="hero-row">
-      <p class="hero-sub">Sono Roberto Monti e lavoro da Bologna. Costruisco pagine di vendita, siti per attività locali e piattaforme web. Qui sotto trovi cinque lavori per clienti e progetti miei, e quattro siti che ho progettato da me: hanno tutti un link, aprili e giudica tu.</p>
+      <p class="hero-sub">Il tuo prossimo cliente deve capire subito cosa offri e come prenotare. Preparo servizi chiari, lavori visibili e un percorso semplice per contattarti. Lavori direttamente con me, dalla proposta alla pubblicazione.</p>
       <div class="hero-actions">
         <a class="btn btn--accent" href="https://wa.me/393456101591?text=Ciao%20Roberto%2C%20ho%20visto%20il%20tuo%20sito.%20Mi%20serve%3A%20" target="_blank" rel="noopener">Scrivimi su WhatsApp</a>
         <a class="btn btn--ghost" href="#lavori">Guarda i lavori <svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M9 3v12M4 10l5 5 5-5"/></svg></a>
@@ -459,29 +539,44 @@ footer{background:#0E2226;padding-top:clamp(40px,5vw,72px);overflow:hidden}
   </div>
 </section>
 
+<section class="sec brief" id="per-chi" aria-labelledby="h-perchi">
+  <div class="wrap">
+    <h2 id="h-perchi" class="sr">In breve</h2>
+    <dl class="quad">
+      <div class="q" data-rv style="--i:0"><dt class="mono">Per chi lavoro</dt><dd>Attività locali e professionisti: ristoranti, studi, centri, artigiani, consulenti. Chi vive di prenotazioni, richieste e passaparola.</dd></div>
+      <div class="q" data-rv style="--i:1"><dt class="mono">Cosa risolvo</dt><dd>Siti che non dicono cosa offri, pagine che da telefono non si leggono, contatti nascosti in fondo. Chi arriva deve capire in pochi secondi cosa fai e come prenotare.</dd></div>
+      <div class="q" data-rv style="--i:2"><dt class="mono">Cosa ricevi</dt><dd>Un sito o una landing page pubblicata sul tuo dominio, con testi ordinati, versione per telefono, contatti in vista e le basi tecniche per Google.</dd></div>
+      <div class="q" data-rv style="--i:3"><dt class="mono">Perché con me</dt><dd>Parli con la persona che progetta, costruisce e pubblica. La proposta è scritta prima di partire e l'anteprima la vedi prima che vada online.</dd></div>
+    </dl>
+  </div>
+</section>
+
 <section class="work" id="lavori" aria-labelledby="h-lavori">
   <div class="wrap">
     <div class="head">
       <div>
         <p class="mono" data-rv>Lavori</p>
-        <h2 id="h-lavori" data-rv>Nove siti <em style="font-style:normal;color:var(--accent)">online</em></h2>
+        <h2 id="h-lavori" data-rv>Nove progetti</h2>
       </div>
-      <p class="lead" data-rv style="--i:1">Ogni immagine è una schermata vera, fatta a novembre 2026. Quelli segnati come progetto personale li ho ideati e costruiti io, senza un cliente dietro, per mostrare stili diversi.</p>
+      <p class="lead" data-rv style="--i:1">Un sito per un cliente, tre prodotti digitali che vendo con un socio, la piattaforma su cui li gestisco e quattro progetti personali. Ogni scheda dice di che tipo è. Qui sotto i tre che raccontano meglio il mio lavoro.</p>
     </div>
   </div>
 
   <div class="scene" id="scene">
     <div class="scene-pin" id="pin">
-      <div class="ghost" id="ghost" aria-hidden="true"><span>01</span><span>02</span><span>03</span><span>04</span><span>05</span><span>06</span><span>07</span><span>08</span><span>09</span></div>
+      <div class="ghost" id="ghost" aria-hidden="true"><span>01</span><span>02</span><span>03</span></div>
       <ol class="works">
 
         <li class="wk" id="lavoro-max" data-tint="#0F1D2E">
           <div class="wk-info">
-            <p class="wk-n mono">01 / 09</p>
+            <p class="wk-n mono">Caso 01</p>
             <h3>Max Trainer Napoli</h3>
-            <ul class="meta mono"><li>Sito web</li><li class="on">Online</li><li>2026</li></ul>
-            <p class="d">Sito per lo studio di un personal trainer al Vomero, a Napoli. Corsi, metodo, orari e una prenotazione della prova che arriva su WhatsApp.</p>
-            <a class="link" href="https://maxtrainerpt.it/" target="_blank" rel="noopener">Apri maxtrainerpt.it <span class="arr" aria-hidden="true">↗</span></a>
+            <ul class="meta mono"><li class="kind">Per un cliente</li><li>Sito web</li><li class="on">Online</li></ul>
+            <p class="d">Il sito di uno studio di personal training al Vomero. Ho riorganizzato i contenuti del vecchio blog in un sito proprio: allenamenti, orari dei corsi e una richiesta di prova che arriva su WhatsApp già compilata.</p>
+            <div class="wk-links">
+              <a class="link" href="/lavori/max-trainer-napoli">Leggi il caso <span class="arr" aria-hidden="true">→</span></a>
+              <a class="link link--soft" href="https://maxtrainerpt.it/" target="_blank" rel="noopener">Apri maxtrainerpt.it <span class="arr" aria-hidden="true">↗</span></a>
+            </div>
           </div>
           <div class="wk-card" role="img" aria-label="Schermate del sito Max Trainer Napoli, da computer e da telefono">
             <div class="browser"><div class="bar"><i></i><i></i><i></i><span>maxtrainerpt.it</span></div><div class="view"><div class="page i-max-d"></div><div class="glare"></div></div></div>
@@ -491,11 +586,14 @@ footer{background:#0E2226;padding-top:clamp(40px,5vw,72px);overflow:hidden}
 
         <li class="wk" id="lavoro-sicily" data-tint="#4A2417">
           <div class="wk-info">
-            <p class="wk-n mono">02 / 09</p>
+            <p class="wk-n mono">Caso 02</p>
             <h3>The Taste of Sicily</h3>
-            <ul class="meta mono"><li>Ricettario e funnel</li><li class="on">Online</li><li>Mio, con un socio</li></ul>
-            <p class="d">Ricettario digitale in inglese con 35 ricette siciliane e tre guide bonus. La pagina di vendita mostra i prezzi in dollari australiani.</p>
-            <a class="link" href="https://www.traditionalitalianrecipes.food/" target="_blank" rel="noopener">Apri The Taste of Sicily <span class="arr" aria-hidden="true">↗</span></a>
+            <ul class="meta mono"><li class="kind">Mio, con un socio</li><li>Pagina di vendita e funnel</li><li class="on">Online</li></ul>
+            <p class="d">Un ricettario digitale venduto in Australia. Ho costruito la pagina di vendita in inglese, con l'anteprima del libro prima dell'acquisto, e il percorso d'ordine: pagina d'ordine, offerta facoltativa, ringraziamento e pagine legali.</p>
+            <div class="wk-links">
+              <a class="link" href="/lavori/the-taste-of-sicily">Leggi il caso <span class="arr" aria-hidden="true">→</span></a>
+              <a class="link link--soft" href="https://www.traditionalitalianrecipes.food/" target="_blank" rel="noopener">Apri la pagina <span class="arr" aria-hidden="true">↗</span></a>
+            </div>
           </div>
           <div class="wk-card" role="img" aria-label="Schermate della pagina di vendita The Taste of Sicily">
             <div class="browser"><div class="bar"><i></i><i></i><i></i><span>traditionalitalianrecipes.food</span></div><div class="view"><div class="page i-sicily-d"></div><div class="glare"></div></div></div>
@@ -503,121 +601,79 @@ footer{background:#0E2226;padding-top:clamp(40px,5vw,72px);overflow:hidden}
           </div>
         </li>
 
-        <li class="wk" id="lavoro-naples" data-tint="#12395C">
-          <div class="wk-info">
-            <p class="wk-n mono">03 / 09</p>
-            <h3>The Taste of Naples</h3>
-            <ul class="meta mono"><li>Ricettario e funnel</li><li class="on">Online</li><li>Mio, con un socio</li></ul>
-            <p class="d">36 ricette di Napoli, Amalfi e delle isole in un PDF di 102 pagine. Sulla pagina si legge una ricetta completa prima di comprare.</p>
-            <a class="link" href="https://naples.traditionalitalianrecipes.food/" target="_blank" rel="noopener">Apri The Taste of Naples <span class="arr" aria-hidden="true">↗</span></a>
-          </div>
-          <div class="wk-card" role="img" aria-label="Schermate della pagina di vendita The Taste of Naples">
-            <div class="browser"><div class="bar"><i></i><i></i><i></i><span>naples.traditionalitalianrecipes.food</span></div><div class="view"><div class="page i-naples-d"></div><div class="glare"></div></div></div>
-            <div class="phone"><span class="scr i-naples-m"></span></div>
-          </div>
-        </li>
-
-
-
-
         <li class="wk wk--pap" id="lavoro-pages" data-tint="#1C2126">
           <div class="wk-info">
-            <p class="wk-n mono">04 / 09</p>
+            <p class="wk-n mono">Caso 03</p>
             <h3>Pages and Plans</h3>
-            <ul class="meta mono"><li>Piattaforma web</li><li>Uso interno</li><li>Progetto mio</li></ul>
-            <p class="d">La piattaforma che ho costruito per creare e gestire funnel e siti: pagine a step, contatti, email, statistiche. I ricettari e i prodotti di Natale girano qui. Non è in vendita.</p>
-            <span class="mono" style="color:var(--muted);min-height:44px;display:inline-flex;align-items:center">Accesso riservato</span>
+            <ul class="meta mono"><li class="kind">Progetto mio</li><li>Piattaforma web</li><li>Uso interno</li></ul>
+            <p class="d">La piattaforma che ho progettato e sviluppato per costruire e gestire funnel e siti: step, prodotti e offerte, contatti, email e statistiche. Ci girano i miei prodotti e i progetti personali. L'accesso è riservato: qui trovi la descrizione e una schermata senza dati di clienti.</p>
+            <div class="wk-links">
+              <a class="link" href="/lavori/pages-and-plans">Leggi il caso <span class="arr" aria-hidden="true">→</span></a>
+            </div>
           </div>
-          <div class="wk-card" role="img" aria-label="Schermata di Pages and Plans: gli step di un funnel di vendita">
+          <div class="wk-card" role="img" aria-label="Schermata di Pages and Plans: gli otto step di un funnel di vendita">
             <div class="browser"><div class="bar"><i></i><i></i><i></i><span>pagesandplans.com</span></div><div class="view"><div class="page i-pap-d"></div><div class="glare"></div></div></div>
-          </div>
-        </li>
-
-        <li class="wk" id="lavoro-cookie" data-tint="#1F3A28">
-          <div class="wk-info">
-            <p class="wk-n mono">05 / 09</p>
-            <h3>Grandma's Christmas Cookie Tin</h3>
-            <ul class="meta mono"><li>Libro digitale e funnel</li><li class="on">Online</li><li>Mio, con un socio</li></ul>
-            <p class="d">Libro in inglese con 100 biscotti di Natale: 241 pagine e una foto per ogni ricetta. Fa parte di Hearth &amp; Tin, il marchio dei miei prodotti di Natale 2026, insieme a un diario da regalare alla nonna.</p>
-            <a class="link" href="https://steadypath-cookie-tin.pagesandplans.com/" target="_blank" rel="noopener">Apri Cookie Tin <span class="arr" aria-hidden="true">↗</span></a>
-          </div>
-          <div class="wk-card" role="img" aria-label="Schermate della pagina di vendita Grandma's Christmas Cookie Tin">
-            <div class="browser"><div class="bar"><i></i><i></i><i></i><span>steadypath-cookie-tin.pagesandplans.com</span></div><div class="view"><div class="page i-cookie-d"></div><div class="glare"></div></div></div>
-            <div class="phone"><span class="scr i-cookie-m"></span></div>
-          </div>
-        </li>
-
-
-
-        <li class="wk" id="lavoro-nilde" data-tint="#3A1416">
-          <div class="wk-info">
-            <p class="wk-n mono">06 / 09</p>
-            <h3>Trattoria Da Nilde</h3>
-            <ul class="meta mono"><li>Sito per ristorante</li><li class="on">Progetto personale</li><li>2026</li></ul>
-            <p class="d">Sito per una trattoria bolognese: i piatti girano su una tavola 3D, menu con i prezzi e prenotazione del tavolo.</p>
-            <a class="link" href="https://danilde.pagesandplans.com/" target="_blank" rel="noopener">Apri il sito <span class="arr" aria-hidden="true">↗</span></a>
-          </div>
-          <div class="wk-card" role="img" aria-label="Schermate del sito Trattoria Da Nilde, da computer e da telefono">
-            <div class="browser"><div class="bar"><i></i><i></i><i></i><span>danilde.pagesandplans.com</span></div><div class="view"><div class="page i-trattoria-d"></div><div class="glare"></div></div></div>
-            <div class="phone"><span class="scr i-trattoria-m"></span></div>
-          </div>
-        </li>
-
-        <li class="wk" id="lavoro-asse" data-tint="#22302A">
-          <div class="wk-info">
-            <p class="wk-n mono">07 / 09</p>
-            <h3>Asse Pilates Studio</h3>
-            <ul class="meta mono"><li>Sito per studio pilates</li><li class="on">Progetto personale</li><li>2026</li></ul>
-            <p class="d">Sito per uno studio di Pilates: le lezioni si raccontano con foto che salgono una sull'altra, orari con i posti liberi.</p>
-            <a class="link" href="https://assepilates.pagesandplans.com/" target="_blank" rel="noopener">Apri il sito <span class="arr" aria-hidden="true">↗</span></a>
-          </div>
-          <div class="wk-card" role="img" aria-label="Schermate del sito Asse Pilates Studio, da computer e da telefono">
-            <div class="browser"><div class="bar"><i></i><i></i><i></i><span>assepilates.pagesandplans.com</span></div><div class="view"><div class="page i-pilates-d"></div><div class="glare"></div></div></div>
-            <div class="phone"><span class="scr i-pilates-m"></span></div>
-          </div>
-        </li>
-
-        <li class="wk" id="lavoro-pelle" data-tint="#3A1A2A">
-          <div class="wk-info">
-            <p class="wk-n mono">08 / 09</p>
-            <h3>Atelier Pelle</h3>
-            <ul class="meta mono"><li>Sito per centro estetico</li><li class="on">Progetto personale</li><li>2026</li></ul>
-            <p class="d">Sito per un centro estetico: scegli il trattamento e la foto cambia, con durata e prezzo di ogni voce.</p>
-            <a class="link" href="https://atelierpelle.pagesandplans.com/" target="_blank" rel="noopener">Apri il sito <span class="arr" aria-hidden="true">↗</span></a>
-          </div>
-          <div class="wk-card" role="img" aria-label="Schermate del sito Atelier Pelle, da computer e da telefono">
-            <div class="browser"><div class="bar"><i></i><i></i><i></i><span>atelierpelle.pagesandplans.com</span></div><div class="view"><div class="page i-estetica-d"></div><div class="glare"></div></div></div>
-            <div class="phone"><span class="scr i-estetica-m"></span></div>
-          </div>
-        </li>
-
-        <li class="wk" id="lavoro-ferri" data-tint="#2A2420">
-          <div class="wk-info">
-            <p class="wk-n mono">09 / 09</p>
-            <h3>Ferri &amp; Volta</h3>
-            <ul class="meta mono"><li>Sito per impresa edile</li><li class="on">Progetto personale</li><li>2026</li></ul>
-            <p class="d">Sito per un'impresa di ristrutturazioni: un cursore da trascinare mostra la stessa stanza prima e dopo i lavori.</p>
-            <a class="link" href="https://ferrievolta.pagesandplans.com/" target="_blank" rel="noopener">Apri il sito <span class="arr" aria-hidden="true">↗</span></a>
-          </div>
-          <div class="wk-card" role="img" aria-label="Schermate del sito Ferri &amp; Volta, da computer e da telefono">
-            <div class="browser"><div class="bar"><i></i><i></i><i></i><span>ferrievolta.pagesandplans.com</span></div><div class="view"><div class="page i-edilizia-d"></div><div class="glare"></div></div></div>
-            <div class="phone"><span class="scr i-edilizia-m"></span></div>
           </div>
         </li>
       </ol>
       <div class="rail" id="rail">
-        <span class="cnt mono" aria-hidden="true"><b id="cnt">01</b> / 09</span>
-        <div class="ticks" id="ticks" role="group" aria-label="Scegli un lavoro"></div>
-        <a class="skipw mono" href="#patto">Salta i lavori ↓</a>
+        <span class="cnt mono" aria-hidden="true"><b id="cnt">01</b> / 03</span>
+        <div class="ticks" id="ticks" role="group" aria-label="Scegli un caso"></div>
+        <a class="skipw mono" href="#altri">Altri progetti ↓</a>
       </div>
     </div>
   </div>
+
+  <div class="wrap more" id="altri">
+    <div class="more-head">
+      <h2 class="h2s" data-rv>Altri sei progetti</h2>
+      <a class="skipw mono" href="#servizi">Vai ai servizi ↓</a>
+    </div>
+    <ul class="grid">
+      <li class="it" id="lavoro-naples" data-rv style="--i:0">
+        <a class="thumb i-naples-d" href="https://naples.traditionalitalianrecipes.food/" target="_blank" rel="noopener" aria-label="Apri The Taste of Naples (si apre in una nuova scheda)"><span class="tm i-naples-m"></span></a>
+        <div class="it-t"><ul class="meta mono"><li class="kind">Mio, con un socio</li><li>Funnel</li></ul>
+        <h3>The Taste of Naples</h3><p>Pagina di vendita in inglese con una ricetta completa da leggere prima dell'acquisto, sullo stesso percorso d'ordine.</p>
+        <a class="link" href="https://naples.traditionalitalianrecipes.food/" target="_blank" rel="noopener">Apri la pagina <span class="arr" aria-hidden="true">↗</span></a></div>
+      </li>
+      <li class="it" id="lavoro-cookie" data-rv style="--i:1">
+        <a class="thumb i-cookie-d" href="https://steadypath-cookie-tin.pagesandplans.com/" target="_blank" rel="noopener" aria-label="Apri Grandma's Christmas Cookie Tin (si apre in una nuova scheda)"><span class="tm i-cookie-m"></span></a>
+        <div class="it-t"><ul class="meta mono"><li class="kind">Mio, con un socio</li><li>Funnel</li></ul>
+        <h3>Grandma's Christmas Cookie Tin</h3><p>Pagina di vendita per un libro di biscotti di Natale, pensata per chi lo compra come regalo.</p>
+        <a class="link" href="https://steadypath-cookie-tin.pagesandplans.com/" target="_blank" rel="noopener">Apri la pagina <span class="arr" aria-hidden="true">↗</span></a></div>
+      </li>
+      <li class="it" id="lavoro-nilde" data-rv style="--i:2">
+        <a class="thumb i-trattoria-d" href="https://danilde.pagesandplans.com/" target="_blank" rel="noopener" aria-label="Apri Trattoria Da Nilde (si apre in una nuova scheda)"><span class="tm i-trattoria-m"></span></a>
+        <div class="it-t"><ul class="meta mono"><li class="kind">Progetto personale</li><li>Ristorante</li></ul>
+        <h3>Trattoria Da Nilde</h3><p>Menu con i prezzi, piatti su una tavola 3D e richiesta del tavolo, pensata per chi decide da telefono.</p>
+        <a class="link" href="https://danilde.pagesandplans.com/" target="_blank" rel="noopener">Apri il sito <span class="arr" aria-hidden="true">↗</span></a></div>
+      </li>
+      <li class="it" id="lavoro-asse" data-rv style="--i:0">
+        <a class="thumb i-pilates-d" href="https://assepilates.pagesandplans.com/" target="_blank" rel="noopener" aria-label="Apri Asse Pilates Studio (si apre in una nuova scheda)"><span class="tm i-pilates-m"></span></a>
+        <div class="it-t"><ul class="meta mono"><li class="kind">Progetto personale</li><li>Studio pilates</li></ul>
+        <h3>Asse Pilates Studio</h3><p>Lezioni raccontate per capitoli fotografici e un orario settimanale con i posti liberi.</p>
+        <a class="link" href="https://assepilates.pagesandplans.com/" target="_blank" rel="noopener">Apri il sito <span class="arr" aria-hidden="true">↗</span></a></div>
+      </li>
+      <li class="it" id="lavoro-pelle" data-rv style="--i:1">
+        <a class="thumb i-estetica-d" href="https://atelierpelle.pagesandplans.com/" target="_blank" rel="noopener" aria-label="Apri Atelier Pelle (si apre in una nuova scheda)"><span class="tm i-estetica-m"></span></a>
+        <div class="it-t"><ul class="meta mono"><li class="kind">Progetto personale</li><li>Centro estetico</li></ul>
+        <h3>Atelier Pelle</h3><p>Listino dei trattamenti con durata e prezzo: scegli una voce e cambia la foto.</p>
+        <a class="link" href="https://atelierpelle.pagesandplans.com/" target="_blank" rel="noopener">Apri il sito <span class="arr" aria-hidden="true">↗</span></a></div>
+      </li>
+      <li class="it" id="lavoro-ferri" data-rv style="--i:2">
+        <a class="thumb i-edilizia-d" href="https://ferrievolta.pagesandplans.com/" target="_blank" rel="noopener" aria-label="Apri Ferri &amp; Volta (si apre in una nuova scheda)"><span class="tm i-edilizia-m"></span></a>
+        <div class="it-t"><ul class="meta mono"><li class="kind">Progetto personale</li><li>Impresa edile</li></ul>
+        <h3>Ferri &amp; Volta</h3><p>Un cursore da trascinare mostra la stessa stanza prima e dopo i lavori.</p>
+        <a class="link" href="https://ferrievolta.pagesandplans.com/" target="_blank" rel="noopener">Apri il sito <span class="arr" aria-hidden="true">↗</span></a></div>
+      </li>
+    </ul>
+  </div>
 </section>
 
-<section class="say" id="patto" aria-label="Cosa trovi su questa pagina">
+<section class="say" id="patto" aria-label="Il principio">
   <div class="wrap">
-    <p class="mono">In chiaro</p>
-    <p class="big" id="say">Su questa pagina non trovi recensioni inventate, numeri gonfiati o loghi di clienti che non ho. Trovi lavori veri, ognuno detto per quello che è, <span class="k">con il link per aprirli e controllare da solo.</span></p>
+    <p class="mono">Il principio</p>
+    <p class="big" id="say">Un buon sito si capisce in pochi secondi: cosa fai, per chi lo fai e come ti si contatta. <span class="k">Tutto il resto viene dopo.</span></p>
   </div>
 </section>
 
@@ -631,29 +687,64 @@ footer{background:#0E2226;padding-top:clamp(40px,5vw,72px);overflow:hidden}
     <div class="head">
       <div>
         <p class="mono" data-rv>Servizi</p>
-        <h2 id="h-servizi" data-rv>Tre servizi, con un esempio vero</h2>
+        <h2 id="h-servizi" data-rv>Cosa faccio, e cosa comprende</h2>
       </div>
-      <p class="lead" data-rv style="--i:1">Per ogni servizio c'è un lavoro qui sopra che mostra come lo faccio.</p>
+      <p class="lead" data-rv style="--i:1">Siti e landing page sono il lavoro principale. Funnel e applicazioni su misura sono servizi a parte, per chi vende online o ha bisogno di uno strumento proprio.</p>
     </div>
-    <div class="rows">
-      <a class="row" href="#lavoro-sicily" data-peek="i-sicily-d" data-rv style="--i:0">
-        <span class="n mono">Vendere</span>
-        <h3>Landing page e funnel</h3>
-        <p>Una pagina con un solo scopo: far comprare, prenotare o lasciare un contatto. Se serve aggiungo ordine, upsell e pagina di ringraziamento.</p>
-        <span class="go mono"><span>Esempio: The Taste of Sicily</span><b aria-hidden="true">↑</b></span>
-      </a>
-      <a class="row" href="#lavoro-max" data-peek="i-max-d" data-rv style="--i:1">
-        <span class="n mono">Farsi trovare</span>
+    <div class="svcs">
+      <article class="svc svc--main" data-rv style="--i:0">
+        <p class="n mono">Per farsi trovare e prenotare</p>
         <h3>Siti web</h3>
-        <p>Siti per attività locali e professionisti: chi sei, cosa offri, come prenotare. Leggibili da telefono e scritti perché Google li capisca.</p>
-        <span class="go mono"><span>Esempio: Max Trainer Napoli</span><b aria-hidden="true">↑</b></span>
-      </a>
-      <a class="row" href="#lavoro-pages" data-peek="i-pap-d" data-rv style="--i:2">
-        <span class="n mono">Gestire</span>
+        <p>Per attività locali e professionisti: chi sei, cosa offri, dove sei e come prenotare.</p>
+        <ul class="inc">
+          <li>Struttura e testi delle pagine, organizzati con te</li>
+          <li>Versione per telefono e per computer</li>
+          <li>Contatti in vista: WhatsApp, email o modulo</li>
+          <li>Pubblicazione sul dominio con HTTPS, sitemap e dati per Google</li>
+          <li>Pagina privacy coerente con quello che il sito fa davvero</li>
+        </ul>
+        <div class="svc-links"><a class="link" href="/siti-web">Come funziona <span class="arr" aria-hidden="true">→</span></a><a class="link link--soft" href="/lavori/max-trainer-napoli">Esempio: Max Trainer <span class="arr" aria-hidden="true">→</span></a></div>
+      </article>
+      <article class="svc svc--main" data-rv style="--i:1">
+        <p class="n mono">Per un'offerta precisa</p>
+        <h3>Landing page</h3>
+        <p>Una pagina sola, con un obiettivo solo: prenotare, chiedere un preventivo, comprare.</p>
+        <ul class="inc">
+          <li>Testo costruito attorno all'azione che vuoi ottenere</li>
+          <li>Pulsanti verso WhatsApp, modulo o pagamento</li>
+          <li>Versione per telefono curata per prima</li>
+          <li>Pronta per le campagne pubblicitarie, se le usi</li>
+        </ul>
+        <div class="svc-links"><a class="link" href="/landing-page">Come funziona <span class="arr" aria-hidden="true">→</span></a><a class="link link--soft" href="/lavori/the-taste-of-sicily">Esempio: The Taste of Sicily <span class="arr" aria-hidden="true">→</span></a></div>
+      </article>
+      <article class="svc" data-rv style="--i:0">
+        <p class="n mono">Servizio a parte</p>
+        <h3>Funnel</h3>
+        <p>Per chi vende un prodotto online: pagina di vendita, pagina d'ordine, offerte facoltative e ringraziamento, collegati in un percorso unico.</p>
+        <div class="svc-links"><a class="link link--soft" href="/lavori/the-taste-of-sicily">Esempio <span class="arr" aria-hidden="true">→</span></a></div>
+      </article>
+      <article class="svc" data-rv style="--i:1">
+        <p class="n mono">Servizio a parte</p>
         <h3>App e sistemi su misura</h3>
-        <p>Strumenti web costruiti sul tuo modo di lavorare: aree riservate con accesso, pannelli di gestione, statistiche.</p>
-        <span class="go mono"><span>Esempio: Pages and Plans</span><b aria-hidden="true">↑</b></span>
-      </a>
+        <p>Strumenti web costruiti sul tuo modo di lavorare: aree riservate, pannelli di gestione, statistiche. Il perimetro si definisce insieme, caso per caso.</p>
+        <div class="svc-links"><a class="link link--soft" href="/lavori/pages-and-plans">Esempio <span class="arr" aria-hidden="true">→</span></a></div>
+      </article>
+    </div>
+
+    <div class="faq" id="proposta">
+      <div class="faq-h">
+        <h3 data-rv>Cosa trovi scritto nella proposta</h3>
+        <p data-rv style="--i:1">Prezzi e tempi dipendono da quante pagine servono e da cosa devono fare, per questo non li pubblico a forfait. Prima di iniziare ricevi una proposta scritta che risponde a questi punti.</p>
+      </div>
+      <div class="faq-l" data-rv style="--i:1">
+        <details><summary>Cosa comprende il lavoro</summary><p>Le pagine, le funzioni e i collegamenti inclusi, elencati uno per uno. Quello che non c'è scritto non è compreso.</p></details>
+        <details><summary>Tempi</summary><p>Una data indicativa per l'anteprima e una per la pubblicazione, calcolate sul materiale che hai già pronto.</p></details>
+        <details><summary>Investimento</summary><p>Il prezzo del lavoro, separato dai costi che si ripetono nel tempo.</p></details>
+        <details><summary>Testi, foto e revisioni</summary><p>Chi prepara testi e immagini, e quanti giri di correzioni sull'anteprima sono compresi prima della pubblicazione.</p></details>
+        <details><summary>Dominio, hosting e proprietà</summary><p>A chi è intestato il dominio, dove viene pubblicato il sito e chi può accedere ai servizi collegati.</p></details>
+        <details><summary>Costi ricorrenti</summary><p>Dominio, hosting ed eventuali servizi esterni hanno costi annuali o mensili: li trovi elencati a parte.</p></details>
+        <details><summary>Dopo la consegna</summary><p>Cosa è compreso dopo la pubblicazione e come si gestiscono modifiche e manutenzione.</p></details>
+      </div>
     </div>
   </div>
 </section>
@@ -665,21 +756,22 @@ footer{background:#0E2226;padding-top:clamp(40px,5vw,72px);overflow:hidden}
         <p class="mono" data-rv>Come lavoro</p>
         <h2 id="h-metodo" data-rv>Quattro passaggi, dal messaggio al sito online</h2>
       </div>
-      <p class="lead" data-rv style="--i:1">Il prezzo lo conosci prima di partire, e la pagina la vedi prima che vada online.</p>
+      <p class="lead" data-rv style="--i:1">La proposta la ricevi per iscritto prima di partire, e la pagina la vedi prima che vada online.</p>
     </div>
     <ol class="steps">
-      <li class="step" data-rv style="--i:0"><span class="mono">01</span><h3>Mi scrivi</h3><p>Mi racconti l'attività e cosa ti serve. Bastano due righe su WhatsApp.</p></li>
-      <li class="step" data-rv style="--i:1"><span class="mono">02</span><h3>Ricevi la proposta</h3><p>Ti scrivo cosa farei, in quanto tempo e a che prezzo. Decidi tu se partire.</p></li>
-      <li class="step" data-rv style="--i:2"><span class="mono">03</span><h3>Vedi l'anteprima</h3><p>Costruisco la pagina e te la mostro. Le correzioni le facciamo prima della pubblicazione.</p></li>
-      <li class="step" data-rv style="--i:3"><span class="mono">04</span><h3>Va online</h3><p>Collego dominio e moduli, controllo tutto da telefono e ti spiego come gestirla.</p></li>
+      <li class="step" data-rv style="--i:0"><span class="mono">01</span><h3>Mi scrivi</h3><p>Mi racconti l'attività e cosa ti serve. Bastano due righe su WhatsApp o per email.</p></li>
+      <li class="step" data-rv style="--i:1"><span class="mono">02</span><h3>Ricevi la proposta</h3><p>Cosa farei, in quanto tempo e a che prezzo, per iscritto. Decidi tu se partire.</p></li>
+      <li class="step" data-rv style="--i:2"><span class="mono">03</span><h3>Vedi l'anteprima</h3><p>Costruisco la pagina e te la mostro su un link privato. Le correzioni si fanno lì, prima della pubblicazione.</p></li>
+      <li class="step" data-rv style="--i:3"><span class="mono">04</span><h3>Va online</h3><p>Collego dominio e contatti, faccio i controlli finali e ti spiego come gestire il sito.</p></li>
     </ol>
 
     <div class="facts">
-      <h3 data-rv>Tre cose da sapere prima di scrivermi</h3>
+      <h3 data-rv>Cosa controllo prima di consegnare</h3>
       <dl>
-        <div class="f" data-rv style="--i:0"><dt>Lavoro da solo</dt><dd>Parli con me dall'inizio alla consegna. Non ci sono commerciali né passaggi di mano.</dd></div>
-        <div class="f" data-rv style="--i:1"><dt>Uso l'intelligenza artificiale</dt><dd>Mi aiuta a scrivere codice e bozze più in fretta. Le scelte le faccio io, e ogni pagina la controllo da telefono e da computer prima che vada online.</dd></div>
-        <div class="f" data-rv style="--i:2"><dt>Ho pochi lavori da mostrare</dt><dd>Faccio questo lavoro in proprio dal 2026. Accanto ai lavori per clienti trovi progetti miei, segnati come tali: nessun cliente inventato.</dd></div>
+        <div class="f" data-rv style="--i:0"><dt>Telefono e computer</dt><dd>Apro ogni pagina su schermi piccoli e grandi: testi leggibili, niente sovrapposizioni, pulsanti raggiungibili.</dd></div>
+        <div class="f" data-rv style="--i:1"><dt>Contatti e moduli</dt><dd>Provo ogni pulsante e ogni modulo fino al punto in cui il messaggio è pronto, senza inviare richieste a nome di altri.</dd></div>
+        <div class="f" data-rv style="--i:2"><dt>Basi tecniche</dt><dd>HTTPS, reindirizzamenti, intestazioni di sicurezza, sitemap e dati per Google, peso delle immagini.</dd></div>
+        <div class="f" data-rv style="--i:3"><dt>Chi ne risponde</dt><dd>Lavoro da solo: progetto, costruisco e pubblico io. Uso strumenti di intelligenza artificiale per accelerare codice e bozze; scelte, testi finali e controlli restano responsabilità mia.</dd></div>
       </dl>
     </div>
   </div>
@@ -690,29 +782,31 @@ footer{background:#0E2226;padding-top:clamp(40px,5vw,72px);overflow:hidden}
     <div class="c-left">
       <p class="mono" data-rv>Contatti</p>
       <h2 id="h-contatti" data-rv>Scrivimi cosa ti serve</h2>
-      <p class="lead" data-rv style="--i:1">Rispondo io, di persona. Compila il modulo oppure scrivimi direttamente.</p>
+      <p class="lead" data-rv style="--i:1">Rispondo io, di persona. Scrivimi direttamente oppure usa il modulo: prepara il testo e lo apre in WhatsApp.</p>
       <ul class="c-list" data-rv style="--i:2">
         <li><span class="mono">WhatsApp</span><a href="https://wa.me/393456101591" target="_blank" rel="noopener">345 610 1591</a></li>
         <li><span class="mono">Email</span><a href="mailto:info@robertomontiweb.it">info@robertomontiweb.it</a></li>
         <li><span class="mono">Dove</span><b style="font-weight:600">Bologna, lavoro in tutta Italia</b></li>
       </ul>
     </div>
-    <form id="form" novalidate data-rv style="--i:1">
-      <div class="field"><label for="f-nome">Nome</label><input id="f-nome" name="nome" autocomplete="name" required><span class="err" id="e-nome">Scrivi il tuo nome.</span></div>
+    <form id="form" method="dialog" novalidate data-rv style="--i:1" aria-describedby="f-note">
+      <div class="field"><label for="f-nome">Nome <span aria-hidden="true">*</span></label><input id="f-nome" name="nome" autocomplete="name" required aria-required="true"><span class="err" id="e-nome">Scrivi il tuo nome.</span></div>
       <div class="field"><label for="f-att">Attività e città</label><input id="f-att" name="attivita" autocomplete="organization" placeholder="Es. studio pilates, Bologna"><span class="err"></span></div>
       <div class="field full"><label for="f-tipo">Cosa ti serve</label>
         <select id="f-tipo" name="tipo">
-          <option>Una landing page o un funnel</option>
           <option>Un sito web</option>
+          <option>Una landing page</option>
+          <option>Un funnel di vendita</option>
           <option>Un'app o un sistema su misura</option>
           <option>Non lo so ancora, parliamone</option>
         </select></div>
-      <div class="field full"><label for="f-msg">Messaggio</label><textarea id="f-msg" name="messaggio" required placeholder="Cosa vendi, a chi, e cosa vorresti ottenere dalla pagina."></textarea><span class="err" id="e-msg">Scrivi due righe su cosa ti serve.</span></div>
+      <div class="field full"><label for="f-msg">Messaggio <span aria-hidden="true">*</span></label><textarea id="f-msg" name="messaggio" required aria-required="true" placeholder="Cosa offri, a chi, e cosa vorresti ottenere dal sito."></textarea><span class="err" id="e-msg">Scrivi due righe su cosa ti serve.</span></div>
       <div class="f-foot">
-        <button class="btn btn--accent" type="submit">Invia su WhatsApp <svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 9h12M10 4l5 5-5 5"/></svg></button>
-        <p class="f-note">Il modulo non salva niente: apre WhatsApp con il messaggio già scritto, e sei tu a premere invia.</p>
+        <button class="btn btn--accent" id="f-btn" type="submit" disabled>Prepara il messaggio su WhatsApp <svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 9h12M10 4l5 5-5 5"/></svg></button>
+        <p class="f-note" id="f-note">Il testo viene composto nel tuo browser e passato a WhatsApp nel link: da questo sito non parte nessun invio. Il messaggio arriva solo se lo invii tu dall'app. Dettagli nell'<a href="/privacy">informativa privacy</a>.</p>
       </div>
-      <p class="f-status" id="status" role="status" aria-live="polite"></p>
+      <noscript><p class="f-alt">Il modulo ha bisogno di JavaScript. Puoi scrivermi direttamente su <a href="https://wa.me/393456101591">WhatsApp</a> o a <a href="mailto:info@robertomontiweb.it">info@robertomontiweb.it</a>.</p></noscript>
+      <div class="f-status" id="status" role="status" aria-live="polite"></div>
     </form>
   </div>
 </section>
@@ -722,12 +816,13 @@ footer{background:#0E2226;padding-top:clamp(40px,5vw,72px);overflow:hidden}
 <footer>
   <div class="wrap">
     <div class="foot-top">
-      <p>Landing page, siti web e app su misura. Da Bologna, per attività e professionisti in tutta Italia.</p>
+      <p>Siti e landing page per attività locali e professionisti. Da Bologna, in tutta Italia.</p>
       <nav class="foot-links" aria-label="Link del piè di pagina">
+        <a href="/siti-web">Siti web</a>
+        <a href="/landing-page">Landing page</a>
         <a href="#lavori">Lavori</a>
-        <a href="#servizi">Servizi</a>
-        <a href="#metodo">Come lavoro</a>
         <a href="#contatti">Contatti</a>
+        <a href="/privacy">Privacy</a>
         <a href="https://wa.me/393456101591" target="_blank" rel="noopener">WhatsApp ↗</a>
       </nav>
     </div>
@@ -744,234 +839,9 @@ footer{background:#0E2226;padding-top:clamp(40px,5vw,72px);overflow:hidden}
 <div class="bar-cta" id="barCta"><a class="btn btn--accent" href="https://wa.me/393456101591?text=Ciao%20Roberto%2C%20ho%20visto%20il%20tuo%20sito.%20Mi%20serve%3A%20" target="_blank" rel="noopener">Scrivimi su WhatsApp</a></div>
 <div class="peek" id="peek" aria-hidden="true"></div>
 
-<script src="https://unpkg.com/lenis@1.1.14/dist/lenis.min.js"></script>
-<script>
-(function(){
-  var d=document, root=d.documentElement;
-  var reduce=matchMedia('(prefers-reduced-motion: reduce)');
-  var WA='https://wa.me/393456101591';
-  function $(s,c){return (c||d).querySelector(s)}
-  function $$(s,c){return [].slice.call((c||d).querySelectorAll(s))}
-  function clamp(v,a,b){return Math.max(a,Math.min(b,v))}
+<script src="/js/lenis.min.js" defer></script>
+<script src="/js/main.js" defer></script>
 
-  /* ---- slower, smoother scrolling ---- */
-  var lenis=null;
-  if(window.Lenis&&!reduce.matches){
-    try{
-      lenis=new Lenis({lerp:.07,wheelMultiplier:.72,smoothWheel:true});
-      (function raf(t){lenis.raf(t);requestAnimationFrame(raf)})(performance.now());
-    }catch(e){lenis=null}
-  }
-  function go(y,fast){
-    y=Math.max(0,Math.round(y));
-    if(lenis)lenis.scrollTo(y,{duration:fast?1:1.6});
-    else scrollTo({top:y,behavior:reduce.matches?'auto':'smooth'});
-  }
-
-  /* ---- clock: Bologna local time ---- */
-  var ck=$('#clock');
-  function tick(){try{ck.textContent=new Intl.DateTimeFormat('it-IT',{hour:'2-digit',minute:'2-digit',timeZone:'Europe/Rome'}).format(new Date())}catch(e){}}
-  tick(); setInterval(tick,20000);
-
-  /* ---- menu ---- */
-  var mb=$('#menuBtn'), sheet=$('#sheet');
-  function menu(open){
-    mb.setAttribute('aria-expanded',open?'true':'false');mb.lastElementChild.textContent=open?'Chiudi':'Menu';
-    sheet.classList.toggle('is-open',open);sheet.setAttribute('aria-hidden',open?'false':'true');
-    d.body.style.overflow=open?'hidden':''; if(lenis){open?lenis.stop():lenis.start()}
-  }
-  mb.addEventListener('click',function(){menu(mb.getAttribute('aria-expanded')!=='true')});
-  d.addEventListener('keydown',function(e){if(e.key==='Escape')menu(false)});
-
-  /* ---- work: 3D scene ---- */
-  var work=$('.work'), scene=$('#scene'), pin=$('#pin'), ghost=$('#ghost'), cnt=$('#cnt'), ticks=$('#ticks');
-  var wks=$$('.wk'), N=wks.length, is3d=false, step=0, sceneTop=0, vh=innerHeight, active=-1, small=false;
-  var parts=wks.map(function(w){return {el:w,info:$('.wk-info',w),card:$('.wk-card',w),view:$('.view',w),page:$('.page',w),phone:$('.phone',w),glare:$('.glare',w),tint:w.getAttribute('data-tint'),pap:w.classList.contains('wk--pap')}});
-  wks.forEach(function(w,i){
-    var b=d.createElement('button');b.type='button';
-    b.setAttribute('aria-label','Lavoro '+(i+1)+': '+$('h3',w).textContent);
-    b.addEventListener('click',function(){go(sceneTop+i*step,true)});
-    ticks.appendChild(b);
-  });
-  var tickBtns=$$('button',ticks);
-  function ease(x){return x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2}
-  function measure(){
-    vh=innerHeight; small=innerWidth<960;
-    parts.forEach(function(p){
-      if(p.pap||!p.view)return;
-      p.card.style.setProperty('--shift',Math.max(0,p.page.offsetHeight-p.view.clientHeight)+'px');
-    });
-    if(is3d){
-      step=Math.round(vh*(small?1.45:.92));
-      scene.style.height=((N-1)*step+pin.offsetHeight+Math.round(vh*.25))+'px';
-      sceneTop=scene.getBoundingClientRect().top+scrollY;
-    }else{scene.style.height=''}
-  }
-  function set3d(on){
-    if(on===is3d)return; is3d=on; work.classList.toggle('is-3d',on); active=-1;
-    if(!on){parts.forEach(function(p){p.el.classList.remove('is-live','is-active');p.card.style.transform='';p.card.style.removeProperty('--op');p.info.style.transform=p.info.style.opacity='';p.card.style.removeProperty('--pan')});pin.style.removeProperty('--tint')}
-    measure();
-  }
-  function renderScene(y){
-    var P=(y-sceneTop)/step;
-    if(P<0)P=Math.max(-1,(y-sceneTop)/vh);           /* the first work flies in as the scene arrives */
-    P=Math.min(P,N-1);
-    var a=clamp(Math.round(P),0,N-1), H=small?.34:.2;
-    for(var i=0;i<N;i++){
-      var p=parts[i], t=P-i, at=Math.abs(t);
-      if(at>=1.04){if(p.live){p.live=false;p.el.classList.remove('is-live','is-active')}continue}
-      if(!p.live){p.live=true;p.el.classList.add('is-live')}
-      p.el.classList.toggle('is-active',i===a);
-      var k=at<=H?0:ease(Math.min(1,(at-H)/(1-H)));
-      var tx,ty,tz,rx,ry,rz;
-      if(small){
-        if(t<0){tx=0;ty=-k*4;tz=-k*1100;rx=k*18;ry=0;rz=0}
-        else{tx=0;ty=-k*22;tz=-k*700;rx=-k*16;ry=0;rz=0}
-      }
-      else if(t<0){tx=k*16;ty=k*48;tz=-k*1500;rx=k*36;ry=-k*30;rz=k*5}
-      else{tx=-k*22;ty=-k*46;tz=-k*1700;rx=-k*28;ry=k*36;rz=-k*7}
-      var sc=1-k*.3, op=t>0?clamp(1-(k-.4)/.45,0,1):(k<.72?1:1-(k-.72)/.28);
-      p.card.style.transform='translate3d('+tx.toFixed(2)+'vw,'+ty.toFixed(2)+'vh,'+tz.toFixed(0)+'px) rotateX('+rx.toFixed(2)+'deg) rotateY('+ry.toFixed(2)+'deg) rotateZ('+rz.toFixed(2)+'deg) scale('+sc.toFixed(3)+')';
-      p.card.style.setProperty('--op',op.toFixed(3));
-      p.card.style.setProperty('--pz',(70+k*150).toFixed(0)+'px');
-      p.card.style.setProperty('--pan',clamp((t+H)/(2*H),0,1).toFixed(3));
-      if(p.glare)p.glare.style.setProperty('--gx',(t*190).toFixed(1)+'%');
-      var io=clamp(1-at/(small?.5:.42),0,1);
-      p.info.style.opacity=io.toFixed(3);
-      p.info.style.transform='translate3d(0,'+(-t*70).toFixed(1)+'px,0)';
-    }
-    ghost.style.setProperty('--p',clamp(P,0,N-1).toFixed(3));
-    if(a!==active){
-      active=a; pin.style.setProperty('--tint',parts[a].tint);
-      cnt.textContent=(a<9?'0':'')+(a+1);
-      tickBtns.forEach(function(b,i){b.setAttribute('aria-current',i===a?'true':'false')});
-    }
-  }
-
-  /* ---- statement: words light up with the scroll ---- */
-  var say=$('#say'), words=[];
-  (function(){
-    var out=d.createDocumentFragment();
-    [].slice.call(say.childNodes).forEach(function(n){
-      var key=n.nodeType===1;
-      (n.textContent||'').split(/(\s+)/).forEach(function(t){
-        if(!t)return;
-        if(/^\s+$/.test(t)){out.appendChild(d.createTextNode(' '));return}
-        var s=d.createElement('span');s.className='w'+(key?' k':'');s.textContent=t;out.appendChild(s);words.push(s);
-      });
-    });
-    say.textContent='';say.appendChild(out);
-  })();
-
-  /* ---- footer name: set to the full width, letters rise ---- */
-  var giant=$('#giant');
-  (function(){
-    var txt=giant.textContent;giant.textContent='';
-    txt.split('').forEach(function(c,i){
-      if(c===' '){giant.appendChild(d.createTextNode(' '));return}
-      var b=d.createElement('b');b.textContent=c;b.style.setProperty('--i',i);if(c==='.')b.className='dot';giant.appendChild(b);
-    });
-  })();
-  function fit(){
-    var par=giant.parentElement, w=par.clientWidth-parseFloat(getComputedStyle(par).paddingLeft)*2;
-    giant.style.fontSize='100px';
-    var gw=giant.scrollWidth; if(gw>0)giant.style.fontSize=(100*w/gw*.992).toFixed(2)+'px';
-  }
-
-  /* ---- one scroll loop for everything that follows the scroll ---- */
-  var nav=$('#nav'), bar=$('#barCta'), hero=$('.hero'), heroTop=$('#heroTop'), contact=$('#contatti'), prog=$('#prog');
-  var phs=$$('#strip .ph'), mq=$('#mq'), mqRows=$$('.mq-row');
-  var ticking=false;
-  function onScroll(){
-    ticking=false;
-    var y=scrollY, max=root.scrollHeight-innerHeight;
-    nav.classList.toggle('is-pill',y>40);
-    prog.style.transform='scaleX('+(max>0?clamp(y/max,0,1):0).toFixed(4)+')';
-    var cr=contact.getBoundingClientRect();
-    var inScene=is3d&&y>sceneTop-vh*.5&&y<sceneTop+scene.offsetHeight-vh*.6;
-    bar.classList.toggle('is-on',y>hero.offsetHeight*.7&&cr.top>vh*.6&&!inScene);
-    if(!reduce.matches){
-      if(y<hero.offsetHeight){
-        phs.forEach(function(p,i){p.style.setProperty('--py',(-y*(.1+(i%3)*.11)).toFixed(1)+'px')});
-        heroTop.style.transform='translate3d(0,'+(y*.16).toFixed(1)+'px,0)';
-        heroTop.style.opacity=clamp(1-y/(hero.offsetHeight*.75),0,1).toFixed(3);
-      }
-      var r=say.getBoundingClientRect();
-      var n=Math.round(clamp((vh*.86-r.top)/(r.height+vh*.42),0,1)*words.length);
-      for(var i=0;i<words.length;i++)words[i].classList.toggle('on',i<n);
-      var mr=mq.getBoundingClientRect();
-      if(mr.top<vh&&mr.bottom>0){
-        var off=(mr.top+mr.height/2-vh/2);
-        mqRows.forEach(function(row){var dir=+row.getAttribute('data-dir');row.style.transform='translate3d('+(dir*off*.32-(dir<0?0:innerWidth*.55)).toFixed(1)+'px,0,0)'});
-      }
-    }
-    if(is3d)renderScene(y);
-  }
-  function req(){if(!ticking){ticking=true;requestAnimationFrame(onScroll)}}
-  addEventListener('scroll',req,{passive:true});
-  if(lenis)lenis.on('scroll',req);
-  function relayout(){set3d(!reduce.matches);measure();fit();onScroll()}
-  addEventListener('resize',relayout);
-  relayout();
-  addEventListener('load',relayout);
-  if(d.fonts&&d.fonts.ready)d.fonts.ready.then(relayout);
-
-  /* ---- in-page links: slow glide, and works are places inside the scene ---- */
-  d.addEventListener('click',function(e){
-    var a=e.target.closest('a[href^="#"]'); if(!a)return;
-    var id=a.getAttribute('href').slice(1), el=d.getElementById(id); if(!el)return;
-    e.preventDefault(); menu(false);
-    var wi=wks.indexOf(el);
-    if(wi>-1&&is3d){go(sceneTop+wi*step);return}
-    if(id==='top'){go(0);return}
-    go(el.getBoundingClientRect().top+scrollY-(id==='lavori'||id==='patto'?0:70));
-  });
-
-  /* ---- reveals ---- */
-  $$('h2[data-rv]').forEach(function(h){var s=d.createElement('span');s.className='h2i';while(h.firstChild)s.appendChild(h.firstChild);h.appendChild(s)});
-  var rv=$$('[data-rv]').concat([giant]);
-  if('IntersectionObserver' in window&&!reduce.matches){
-    var io=new IntersectionObserver(function(es){es.forEach(function(en){if(en.isIntersecting){en.target.classList.add('in');io.unobserve(en.target)}})},{rootMargin:'0px 0px -8% 0px',threshold:.08});
-    rv.forEach(function(el){io.observe(el)});
-  }else{rv.forEach(function(el){el.classList.add('in')})}
-
-  /* ---- services: a preview of the example follows the pointer ---- */
-  var peek=$('#peek');
-  if(matchMedia('(hover:hover) and (pointer:fine)').matches&&!reduce.matches){
-    var px=0,py=0,tx=0,ty=0,run=false,cur='';
-    function loop(){px+=(tx-px)*.16;py+=(ty-py)*.16;peek.style.transform='translate3d('+px+'px,'+py+'px,0)';if(run)requestAnimationFrame(loop)}
-    $$('.row[data-peek]').forEach(function(row){
-      row.addEventListener('pointerenter',function(e){
-        if(innerWidth<960)return;
-        if(cur)peek.classList.remove(cur);cur=row.getAttribute('data-peek');peek.classList.add(cur,'is-on');
-        tx=px=e.clientX+26;ty=py=e.clientY-190;run=true;loop();
-      });
-      row.addEventListener('pointermove',function(e){tx=Math.min(e.clientX+26,innerWidth-296);ty=e.clientY-190});
-      row.addEventListener('pointerleave',function(){peek.classList.remove('is-on');run=false});
-    });
-  }
-
-  /* ---- form: builds the WhatsApp message, never claims a send ---- */
-  var form=$('#form'), status=$('#status');
-  function bad(el,on){el.closest('.field').classList.toggle('bad',on);el.setAttribute('aria-invalid',on?'true':'false')}
-  form.addEventListener('submit',function(e){
-    e.preventDefault();
-    var nome=form.nome, msg=form.messaggio, ok=true;
-    [nome,msg].forEach(function(el){var b=!el.value.trim();bad(el,b);if(b&&ok){el.focus();ok=false}});
-    if(!ok)return;
-    var t='Ciao Roberto, sono '+nome.value.trim()+(form.attivita.value.trim()?' ('+form.attivita.value.trim()+')':'')+'.\n'+
-          'Mi serve: '+form.tipo.value+'.\n\n'+msg.value.trim();
-    var url=WA+'?text='+encodeURIComponent(t);
-    status.innerHTML='Messaggio pronto. <a target="_blank" rel="noopener">Apri WhatsApp e premi invia</a>.';
-    status.firstElementChild.href=url;
-    status.classList.add('is-on');
-    var a=d.createElement('a');a.href=url;a.target='_blank';a.rel='noopener';d.body.appendChild(a);
-    try{a.click()}catch(err){}
-    a.remove();
-  });
-  form.addEventListener('input',function(e){if(e.target.closest('.field.bad')&&e.target.value.trim())bad(e.target,false)});
-})();
-</script>
 
 </body>
 </html>
