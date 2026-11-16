@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /progetti/
+Sitemap: https://robertomontiweb.it/sitemap.xml
