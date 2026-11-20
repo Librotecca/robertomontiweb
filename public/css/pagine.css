@@ -1,5 +1,5 @@
 :root{color-scheme:light;--ground:#BDC0C3;--deep:#ABAEB1;--surface:#CBCED1;--text:#14191E;--muted:#454B52;--line:rgba(20,25,30,.22);--accent:#E8890A;--accent-2:#F5A93A;--on-accent:#14191E;--soft:#262C33;
---f-display:"Bricolage Grotesque","Arial Narrow",Arial,sans-serif;--f-body:"Instrument Sans","Helvetica Neue",Arial,sans-serif;--f-mono:"JetBrains Mono",ui-monospace,Menlo,monospace;--gutter:clamp(20px,4.4vw,64px);--ease:cubic-bezier(.2,.7,.1,1)}
+--f-display:"Archivo","Arial Narrow","Helvetica Neue",Arial,sans-serif;--f-body:"Archivo","Helvetica Neue",Helvetica,Arial,sans-serif;--f-mono:"Martian Mono",ui-monospace,"SF Mono",Menlo,Consolas,monospace;--gutter:clamp(20px,4.4vw,64px);--ease:cubic-bezier(.2,.7,.1,1)}
 *,*::before,*::after{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
 body{margin:0;background:var(--ground);color:var(--text);font-family:var(--f-body);font-size:17px;line-height:1.55;-webkit-font-smoothing:antialiased}
@@ -73,3 +73,23 @@ header.top,footer{--soft:#DCE2DE;--ground:#1B3A40;--deep:#122A2F;--surface:#2348
 header.top nav a:hover,header.top nav a[aria-current]{background:rgba(241,237,228,.1)}
 .chips li.kind{border-color:rgba(20,25,30,.45)}
 .related a:hover{border-color:rgba(20,25,30,.45)}
+
+/* Allineamento alla home nuova: stessi caratteri, angoli e contrasti */
+body{font-weight:420;line-height:1.5;text-rendering:optimizeLegibility}
+.mono{font-stretch:80%;font-weight:420;font-size:12px;line-height:1.4;letter-spacing:.045em;font-variant-numeric:tabular-nums}
+h1{font-weight:760;font-stretch:76%;line-height:.94;letter-spacing:-.03em;word-spacing:.04em}
+h1 em{color:var(--on-accent);padding:0 .09em;margin-left:-.03em;-webkit-box-decoration-break:clone;box-decoration-break:clone;background:linear-gradient(var(--accent) 0 0) 0 58%/100% 76% no-repeat}
+.body h2,.cta h2{font-weight:720;font-stretch:80%;letter-spacing:-.024em;word-spacing:.03em}
+.btn{border-radius:6px;font-weight:620;min-height:54px}
+.btn--sm{min-height:44px}
+.skip,.brand b{border-radius:6px}
+.brand b{font-family:var(--f-mono);font-stretch:75%;font-size:13px;font-weight:700;width:34px;height:34px}
+.top nav a,.chips li{border-radius:6px}
+.shot{border-radius:8px}
+.related a{border-radius:6px}
+.intro .eyebrow,.related span{color:var(--muted)}
+.crumb a:hover{color:var(--text)}
+.chips li.on{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}
+.blk a{color:var(--text);font-weight:600;text-decoration:underline;text-decoration-color:var(--accent);text-decoration-thickness:1.5px}
+.related b{font-weight:720;font-stretch:80%;letter-spacing:-.02em}
+footer{background:#122A2F}
